@@ -1,6 +1,7 @@
 import './App.scss';
 
-import React from 'react'
+import Menu from './components/Menu'
+import Categories from './components/Categories'
 
 const App = () => {
     return (
@@ -11,4 +12,3 @@ const App = () => {
 }
 
 export default App
-
