@@ -1,7 +1,7 @@
 import React from 'react'
 
-const Item = ({ item }) => {
-    const {title, category, price, img, desc} = item
+const MenuItem = ({ item }) => {
+    const {title, price, img, desc} = item
     return (
         <article className='menu-item'>
             <img src={img} alt={title} className='photo' />
@@ -16,4 +16,4 @@ const Item = ({ item }) => {
     )
 }
 
-export default Item
+export default MenuItem
